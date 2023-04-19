@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fondo"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/monitor"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:text="Versión_1_3" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/FOUL"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+
+                    android:backgroundTint="@color/cream"
+                    android:drawableLeft="@drawable/bandera"
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_foul_loc"
+
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="FOUL"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="10sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:backgroundTint="@color/cream"
+                    android:drawableLeft="@android:drawable/ic_lock_idle_alarm"
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_min_inc"
+
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="MIN_UP"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="10sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/FOUL_VISITA"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:onClick="boton_foul_vis"
+                    android:outlineAmbientShadowColor="#050505"
+                    android:text="FOUL"
+                    android:textAlignment="center"
+
+                    android:drawableLeft="@drawable/bandera"
+                    android:textColor="@color/red"
+                    android:backgroundTint="@color/cream"
+                    android:fontFamily="@font/oswald"
+                    android:textSize="10sp"
+                    app:cornerRadius="20dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="1"
+
+                    android:backgroundTint="@color/cream"
+                    android:drawableLeft="@android:drawable/button_onoff_indicator_off"
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_24_14"
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="RST_14S"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="10sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:backgroundTint="@color/cream"
+                    android:drawableLeft="@android:drawable/ic_media_pause"
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_star_24s"
+
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="PAUS_24"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp"
+                    app:iconTint="#FF5722" />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="150dp"
+                    android:layout_weight="1"
+
+                    android:onClick="boton_rst_24s"
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="RES_24"
+                    android:textAlignment="center"
+                    android:drawableLeft="@android:drawable/button_onoff_indicator_off"
+                    android:textColor="@color/red"
+                    android:backgroundTint="@color/cream"
+                    android:fontFamily="@font/oswald"
+                    android:textSize="10sp"
+                    app:cornerRadius="20dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:backgroundTint="@color/cream"
+                    android:drawableLeft="@android:drawable/arrow_up_float"
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_loc_inc"
+
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="LOCAL_UP"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:onClick="boton_star"
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="START"
+                    android:textAlignment="center"
+                    android:drawableLeft="@android:drawable/ic_media_play"
+                    android:textColor="@color/red"
+                    android:backgroundTint="@color/cream"
+                    android:fontFamily="@font/oswald"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+                <Button
+                    android:id="@+id/VISITA_UP"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+                    android:onClick="boton_vis_inc"
+                    android:outlineAmbientShadowColor="#050505"
+                    android:text="VISITA_UP"
+                    android:textAlignment="center"
+                    android:drawableLeft="@android:drawable/arrow_up_float"
+                    android:textColor="@color/red"
+                    android:backgroundTint="@color/cream"
+                    android:fontFamily="@font/oswald"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button26"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:backgroundTint="@color/cream"
+                    android:drawableLeft="@android:drawable/presence_busy"
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_loc_dec"
+
+
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="LOCAL_DWN"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/button28"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:backgroundTint="@color/cream"
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_min_dec"
+
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="MIN_DWN"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/button27"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:backgroundTint="@color/cream"
+                    android:drawableLeft="@android:drawable/presence_busy"
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_vis_dec"
+
+                    android:outlineAmbientShadowColor="#050505"
+                    android:text="VISITA_DWN"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button32"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:backgroundTint="@color/cream"
+                    android:drawableLeft="@android:drawable/ic_menu_revert"
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_reset"
+
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="RESET"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/button31"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:backgroundTint="@color/cream"
+                    android:drawableLeft="@android:drawable/ic_lock_idle_alarm"
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_per"
+
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="PERIODO"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/button30"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:onClick="boton_posesion"
+                    android:outlineAmbientShadowColor="#050505"
+                    android:text="POSESION"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:backgroundTint="@color/cream"
+                    android:fontFamily="@font/oswald"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="1"
+
+                    android:onClick="boton_color"
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="COLOR"
+                    android:textAlignment="center"
+
+                    android:textColor="@color/red"
+                    android:backgroundTint="@color/cream"
+                    android:fontFamily="@font/oswald"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="75dp"
+                    android:layout_weight="1"
+
+                    android:backgroundTint="@color/cream"
+                    android:drawableLeft="@android:drawable/stat_notify_sync"
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_reset_all"
+
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="RST_ALL"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="24dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="150dp"
+                    android:layout_weight="1"
+
+                    android:backgroundTint="@color/cream"
+
+                    android:fontFamily="@font/oswald"
+                    android:onClick="boton_brillo"
+
+                    android:outlineAmbientShadowColor="@color/design_default_color_primary"
+                    android:text="BRILLO"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="8sp"
+                    app:cornerRadius="20dp" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

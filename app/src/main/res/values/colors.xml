@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#BF1C0A</color>
+    <color name="purple_500">#F1E6D6</color>
+    <color name="purple_700">#DC965A</color>
+    <color name="teal_200">#6DAACD</color>
+    <color name="teal_700">#294C60</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    //colores basket
+    <color name="red">#BF1C0A</color>
+    <color name="cream">#F1E6D6</color>
+    <color name="orangesand">#DC965A</color>
+</resources>

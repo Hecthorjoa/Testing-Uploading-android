@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/colores"
+        android:title="Colores"
+        android:icon="@drawable/paletcolores"
+        >
+    </item>
+    <item
+        android:id="@+id/acerca_de"
+        android:title="Acerca de ..."
+        android:icon="@drawable/ic_about">
+
+    </item>
+
+    <item
+        android:id="@+id/borrar"
+        android:title="Revertir cambios"
+        android:icon="@drawable/ic_borrar">
+
+    </item>
+
+</menu>
